@@ -1,0 +1,18 @@
+{
+  "name": "close-redundant-snyk-pr",
+  "version": "1.0.0",
+  "main": "read-and-close-prs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "read-and-close-prs": "node read-and-close-prs.js",
+    "scan-snyk-prs": "node scan-and-close-snyk-prs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "dotenv": "^17.2.3"
+  }
+}
