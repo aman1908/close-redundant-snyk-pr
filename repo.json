@@ -1,0 +1,9 @@
+{
+  "cli": {
+    "npm": "@contentstack/cli",
+    "github": {
+      "owner": "contentstack",
+      "repoName": "cli"
+    }
+  }
+}
